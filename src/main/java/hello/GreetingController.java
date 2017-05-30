@@ -18,4 +18,10 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
+    
+    // doing changes after commit
+    
+    private void doChanges() {
+    	
+    }
 }
